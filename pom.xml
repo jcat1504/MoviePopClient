@@ -17,15 +17,27 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+<<<<<<< HEAD
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.boot</groupId>-->
 <!--			<artifactId>spring-boot-starter-data-mongodb</artifactId>-->
 <!--			<version>3.1.0</version>-->
 <!--		</dependency>-->
+=======
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+>>>>>>> 694a6aa (testing)
 		<dependency>
 			<groupId>org.mongodb</groupId>
 			<artifactId>mongodb-driver-sync</artifactId>
 		</dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 694a6aa (testing)
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -43,6 +55,14 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
+=======
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+>>>>>>> 694a6aa (testing)
 			<groupId>me.paulschwarz</groupId>
 			<artifactId>spring-dotenv</artifactId>
 			<version>2.5.4</version>
@@ -53,6 +73,7 @@
 			<version>5.0.0</version>
 			<scope>provided</scope>
 		</dependency>
+<<<<<<< HEAD
 		<!-- For JUnit 5 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -81,6 +102,8 @@
 
 
 
+=======
+>>>>>>> 694a6aa (testing)
 
 	</dependencies>
 
